@@ -23,7 +23,7 @@ def index(request):
 
 def about(request):
 
-     context_dict = {'heading' : 'About Rango'}
+     context_dict = {'heading' : 'Rango says here is the about page'}
 
      return render(request, "rango/about.html", context = context_dict)
 
